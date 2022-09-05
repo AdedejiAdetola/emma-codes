@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.mirror-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navigation{    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid yellow;
+}
+
+.right-box{
+    display: flex;
+}
+
+.box{
+    border: 2px solid yellow;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.box:hover{
+    font-size: 20px;
+    background-color: blue;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
+.content div h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.content div p{
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn1{
+    background-color: rgba(255, 0, 0, 0.8);
+    margin-right: 15px;
+}
+.btn2{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white
+}
+
+.content{
+    /* border: 2px solid blue;   */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.button-section{
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
